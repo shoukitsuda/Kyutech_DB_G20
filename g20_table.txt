@@ -1,0 +1,9 @@
+create table g20(
+  id varchar(4) not null unique,
+  country varchar(12) not null,
+	continent varchar(5),
+	imf varchar(5),
+	population int,
+	group_no varchar(2),
+	primary key(id)
+);

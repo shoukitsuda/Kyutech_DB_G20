@@ -1,0 +1,10 @@
+create table gro (
+		group_no varchar(2) not null unique,
+		group_name varchar(12) not null,
+		primary key( group_no )
+);
+insert into gro values( '01', 'group1' );
+insert into gro values( '02', 'group2' );
+insert into gro values( '03', 'group3' );
+insert into gro values( '04', 'group4' );
+insert into gro values( '05', 'group5' );
